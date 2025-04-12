@@ -1,0 +1,1 @@
+from models.SFCGNN import SFCGNN,GCN

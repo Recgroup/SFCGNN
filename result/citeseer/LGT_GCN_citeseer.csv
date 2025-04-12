@@ -1,0 +1,4 @@
+Model,Layer,MaxACC,MeanACC,std,time,metric01,metric02,parameters
+LGT_GCN,8,0.736,0.7296,0.0071,210.4158,0.0,0.0,python main.py --data citeseer --model LGT_GCN --hid 128 --lr 0.05 --epochs 120 --wightDecay 0.0005 --nlayer 8 --seed 30 --tau 0.7 --dropout 0.6 --maskingRate 0.3 --mergeWay 1 --topk 1 --aug_adj 1 --local 1 
+LGT_GCN,8,0.744,0.7343999999999999,0.0076,158.3505,0.0,0.0,python main.py --data citeseer --model LGT_GCN --hid 128 --lr 0.05 --epochs 60 --wightDecay 0.0005 --nlayer 8 --seed 30 --tau 0.7 --dropout 0.6 --maskingRate 0.3 --mergeWay 1 --topk 1 --aug_adj 1 --local 1 
+LGT_GCN,8,0.73,0.7242,0.0062,159.4915,0.0,0.0,python main.py --data citeseer --model LGT_GCN --hid 128 --lr 0.05 --epochs 60 --wightDecay 0.0005 --nlayer 8 --seed 30 --tau 0.7 --dropout 0.6 --maskingRate 0.3 --mergeWay 1 --topk 1 --aug_adj 1 --local 1 
