@@ -1,4 +1,4 @@
-# Training GNN with ContraNorm
+# SFCGNN: Mitigating Graph Neural Network Over-Smoothing from Structure and Feature Perspectives
 Official pytorch code for paper [**SFCGNN: Mitigating Graph Neural Network Over-Smoothing from Structure and Feature Perspectives**]
 
 ## Introduction
